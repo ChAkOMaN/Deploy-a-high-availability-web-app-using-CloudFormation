@@ -1,5 +1,6 @@
 Description: >
     Santiago Rodriguez / TUI 2023
+    This template deploys servers, security group and IAM resources
 
 Parameters:
 
@@ -129,7 +130,7 @@ Resources:
           !Sub "${EnvironmentName}-PRIV-NETS"
       LaunchConfigurationName:
         Ref: WebAppLaunchConfig
-      MinSize: '2'
+      MinSize: '4'
       MaxSize: '7'
       TargetGroupARNs:
       - Ref: WebAppTargetGroup

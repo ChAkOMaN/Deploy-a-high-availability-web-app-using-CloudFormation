@@ -26,7 +26,7 @@ Creating this project will give you the hands-on experience you need to confiden
 ### To delete the stacks use the following shell scripts:
 
 ```sh
-./cripts/delete.sh hawebappinfra
+./scripts/delete.sh hawebappinfra
 
 ./scripts/delete.sh hawebappservers
 ```
