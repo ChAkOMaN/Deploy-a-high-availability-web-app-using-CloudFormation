@@ -1,0 +1,22 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "HAWebAppProject"
+	},
+	{
+		"ParameterKey": "AMItoUse",
+		"ParameterValue": "ami-08fdec01f5df9998f"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.medium"
+	},
+    {
+        "ParameterKey": "BucketName",
+        "ParameterValue": "hawebapps3bucket"
+    },
+    {
+        "ParameterKey": "HaWebAppHTMLIndex",
+        "ParameterValue": "index.html"
+    }
+]
