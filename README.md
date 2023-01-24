@@ -30,3 +30,6 @@ Creating this project will give you the hands-on experience you need to confiden
 
 ./scripts/delete.sh hawebappservers
 ```
+
+### Udagram URL to verify the web works properly
+http://haweb-WebAp-1U7SP1J0LM2TG-1149180888.us-east-1.elb.amazonaws.com

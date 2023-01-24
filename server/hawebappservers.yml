@@ -161,11 +161,11 @@ Resources:
       Properties:
         Actions:
         - Type: forward
-          TargetGroupArn: !Ref 'WebAppTargetGroup'
+          TargetGroupArn: !Ref WebAppTargetGroup
         Conditions:
         - Field: path-pattern
           Values: [/]
-        ListenerArn: !Ref 'Listener'
+        ListenerArn: !Ref Listener
         Priority: 1
 
   WebAppTargetGroup:
